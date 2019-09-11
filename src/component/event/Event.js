@@ -96,7 +96,7 @@ class Event extends Component {
   }
   OnCreateEvent = () => {
       this.setState({  creatEvent: false })
-      const description = this.descriptionRef.current.value;
+      const description =  this.descriptionRef.current.value;
       const title = this.titleRef.current.value
       const price  = + this.priceRef.current.value
       const date = this.dateRef.current.value
